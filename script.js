@@ -13,7 +13,8 @@ class Rectangle {
     }
 
     getArea() {
-        return this.width * this.height;
+        console.log(this.width * this.height);
+        // return this.width * this.height;
     }
 }
 
@@ -23,7 +24,8 @@ class Square extends Rectangle {
     }
 
     getPerimeter() {
-        return this.width*2 + this.height*2;
+        console.log(this.width*2 + this.height*2);
+        // return this.width*2 + this.height*2;
     }
 }
 
