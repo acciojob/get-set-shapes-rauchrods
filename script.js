@@ -1,6 +1,6 @@
 //complete this code
 class Rectangle {
-	    constructor(width, height) {
+    constructor(width, height) {
         this.width = width;
         this.height = height;
     }
@@ -13,19 +13,19 @@ class Rectangle {
     }
 
     getArea() {
-        console.log(this.width * this.height);
-        // return this.width * this.height;
+        return (this.width * this.height);
+
     }
 }
 
 class Square extends Rectangle {
-	    constructor(width, height) {
+    constructor(width, height) {
         super(width, height);
     }
 
     getPerimeter() {
-        console.log(this.width*2 + this.height*2);
-        // return this.width*2 + this.height*2;
+
+        return (this.width + this.height) * 2;
     }
 }
 
